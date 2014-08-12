@@ -1,0 +1,762 @@
+---
+layout      : 'default'
+css         : 'sink'
+
+title       : 'Kitchen Sink'
+description : 'Examples of All UI'
+type        : 'UI Global'
+---
+
+<%- @partial('header') %>
+
+<div class="main container">
+  <div class="ui fitted grid">
+    <div class="four wide column">
+      <h3 class="ui header">Button</h3>
+    </div>
+    <div class="twelve wide column">
+      <div class="ui segment">
+        <div class="ui button">Button</div>
+        <div class="ui button">
+          <i class="shop icon"></i>
+          Icon
+        </div>
+        <div class="ui labeled icon button">
+          <i class="left chevron icon"></i>
+          Left Labeled Icon
+        </div>
+        <div class="ui right labeled icon button">
+          <i class="right chevron icon"></i>
+          Right Labeled Icon
+        </div>
+        <div class="ui icon button">
+          <i class="shop icon"></i>
+        </div>
+        <div class="ui clearing divider"></div>
+
+        <div class="ui primary button">Primary</div>
+        <div class="ui secondary button">Secondary</div>
+        <div class="ui basic button">Basic</div>
+
+        <div class="ui divider"></div>
+
+        <div class="ui black button">Black</div>
+        <div class="ui yellow button">Yellow</div>
+        <div class="ui green button">Green</div>
+        <div class="ui blue button">Blue</div>
+        <div class="ui orange button">Orange</div>
+        <div class="ui purple button">Purple</div>
+        <div class="ui red button">Red</div>
+        <div class="ui pink button">Pink</div>
+        <div class="ui teal button">Teal</div>
+
+        <div class="ui divider"></div>
+
+        <div class="ui animated button">
+          <div class="visible content">Forward Slide</div>
+          <div class="hidden content">
+            <i class="right arrow icon"></i>
+          </div>
+        </div>
+        <div class="ui vertical animated button">
+          <div class="visible content">Vertical Slide</div>
+          <div class="hidden content">
+            <i class="shop icon"></i>
+          </div>
+        </div>
+        <div class="ui animated fade button">
+          <div class="visible content">Fade</div>
+          <div class="hidden content">
+            Hidden
+          </div>
+        </div>
+        <div class="ui divider"></div>
+        <div class="mini ui button">
+          Mini
+        </div>
+        <div class="tiny ui button">
+          Tiny
+        </div>
+        <div class="small ui button">
+          Small
+        </div>
+        <div class="medium ui button">
+          Medium
+        </div>
+        <div class="large ui button">
+          Large
+        </div>
+        <div class="big ui button">
+          Big
+        </div>
+        <div class="huge ui button">
+          Huge
+        </div>
+        <div class="massive ui button">
+          Massive
+        </div>
+
+        <div class="ui divider"></div>
+        <div class="compact ui button">
+          Compact
+        </div>
+        <div class="ui compact icon button">
+          <i class="pause icon"></i>
+        </div>
+        <div class="ui compact labeled icon button">
+          <i class="pause icon"></i>
+          Compact
+        </div>
+
+        <div class="ui divider"></div>
+
+        <div class="ui buttons">
+          <div class="ui button">One</div>
+          <div class="ui button">Two</div>
+          <div class="ui button">Three</div>
+        </div>
+        <div class="ui icon buttons">
+          <div class="ui button"><i class="align left icon"></i></div>
+          <div class="ui button"><i class="align center icon"></i></div>
+          <div class="ui button"><i class="align right icon"></i></div>
+          <div class="ui button"><i class="align justify icon"></i></div>
+        </div>
+
+        <div class="ui divider"></div>
+
+        <div class="ui top attached button">Top</div>
+        <div class="ui attached segment"></div>
+        <div class="bottom attached ui button">Bottom</div>
+
+        <div class="ui divider"></div>
+
+        <div class="ui vertical buttons">
+          <div class="ui button">Top</div>
+          <div class="ui button">Middle</div>
+          <div class="ui button">Bottom</div>
+        </div>
+
+        <div class="ui divider"></div>
+
+        <div class="ui fluid button">Fluid</div>
+
+      </div>
+      <div class="ui inverted segment">
+        <div class="ui inverted button">Inverted Standard</div>
+        <div class="ui inverted black button">Inverted Black</div>
+        <div class="ui inverted yellow button">Inverted Yellow</div>
+        <div class="ui inverted green button">Inverted Green</div>
+        <div class="ui inverted blue button">Inverted Blue</div>
+        <div class="ui inverted orange button">Inverted Orange</div>
+        <div class="ui inverted purple button">Inverted Purple</div>
+        <div class="ui inverted pink button">Inverted Pink</div>
+        <div class="ui inverted red button">Inverted Red</div>
+        <div class="ui inverted teal button">Inverted Teal</div>
+        <div class="ui divider"></div>
+        <div class="ui basic inverted button">Basic Inverted Standard</div>
+        <div class="ui basic inverted black button">Basic Inverted Black</div>
+        <div class="ui basic inverted yellow button">Basic Inverted Yellow</div>
+        <div class="ui basic inverted green button">Basic Inverted Green</div>
+        <div class="ui basic inverted blue button">Basic Inverted Blue</div>
+        <div class="ui basic inverted orange button">Basic Inverted Orange</div>
+        <div class="ui basic inverted purple button">Basic Inverted Purple</div>
+        <div class="ui basic inverted pink button">Basic Inverted Pink</div>
+        <div class="ui basic inverted red button">Basic Inverted Red</div>
+        <div class="ui basic inverted teal button">Basic Inverted Teal</div>
+      </div>
+    </div>
+
+    <div class="four wide column">
+      <h3 class="ui header">Divider</h3>
+    </div>
+    <div class="twelve wide column">
+      <div class="ui segment">
+        <div class="ui clearing divider"></div>
+        <p>A</p>
+        <div class="ui horizontal divider">
+          Or
+        </div>
+        <p>B</p>
+        <div class="ui horizontal icon divider">
+          <i class="heart icon"></i>
+        </div>
+        <div class="ui two column very relaxed grid basic segment">
+          <div class="column">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in velit suscipit turpis adipiscing condimentum a at lacus. Praesent imperdiet, tortor eget scelerisque cursus, sapien nisl interdum risus, ut scelerisque eros dolor at sem. Maecenas pretium quis metus nec auctor. In sodales urna felis. Mauris bibendum sodales sodales. Mauris eget hendrerit felis. Fusce sollicitudin, arcu eu rutrum lacinia, nisl sem imperdiet velit, in luctus dui eros in turpis. Sed condimentum mollis velit sit amet blandit. Ut adipiscing malesuada elit, eget sagittis dolor sollicitudin sit amet. Nullam euismod viverra volutpat. Etiam adipiscing lorem auctor arcu feugiat fermentum. Sed commodo a justo id euismod. Sed et eros at neque ullamcorper volutpat. Nulla quis turpis at quam molestie facilisis quis ac turpis.
+          </div>
+          <div class="ui vertical divider">
+            Or
+          </div>
+          <div class="column">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in velit suscipit turpis adipiscing condimentum a at lacus. Praesent imperdiet, tortor eget scelerisque cursus, sapien nisl interdum risus, ut scelerisque eros dolor at sem. Maecenas pretium quis metus nec auctor. In sodales urna felis. Mauris bibendum sodales sodales. Mauris eget hendrerit felis. Fusce sollicitudin, arcu eu rutrum lacinia, nisl sem imperdiet velit, in luctus dui eros in turpis. Sed condimentum mollis velit sit amet blandit. Ut adipiscing malesuada elit, eget sagittis dolor sollicitudin sit amet. Nullam euismod viverra volutpat. Etiam adipiscing lorem auctor arcu feugiat fermentum. Sed commodo a justo id euismod. Sed et eros at neque ullamcorper volutpat. Nulla quis turpis at quam molestie facilisis quis ac turpis.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="four wide column">
+      <h3 class="ui header">Header</h3>
+    </div>
+    <div class="twelve wide icon column">
+      <div class="ui segment">
+        <h1 class="ui header">H1</h1>
+        <h2 class="ui header">H2</h2>
+        <h3 class="ui header">H3</h3>
+        <h4 class="ui header">H4</h4>
+        <h5 class="ui header">H5</h5>
+
+        <div class="ui header">
+          Header
+          <div class="sub header">Sub-header</div>
+        </div>
+
+        <div class="ui header">
+          <i class="heart icon"></i>
+          Inline Icon Header
+        </div>
+
+        <div class="ui header">
+          <i class="heart icon"></i>
+          <div class="content">
+            Icon Header
+            <div class="sub header">Sub-header</div>
+          </div>
+        </div>
+
+        <div class="ui dividing header">
+          Dividing Header
+          <div class="sub header">Sub-header</div>
+        </div>
+
+        <div class="ui block header">
+          Block Header
+          <div class="sub header">Sub-header</div>
+        </div>
+
+        <div class="ui attached header">
+          Top Attached
+        </div>
+        <div class="ui attached segment">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in velit suscipit turpis adipiscing condimentum a at lacus. Praesent imperdiet, tortor eget scelerisque cursus, sapien nisl interdum risus, ut scelerisque eros dolor at sem. Maecenas pretium quis metus nec auctor. In sodales urna felis. Mauris bibendum sodales sodales. Mauris eget hendrerit felis. Fusce sollicitudin, arcu eu rutrum lacinia, nisl sem imperdiet velit, in luctus dui eros in turpis. Sed condimentum mollis velit sit amet blandit. Ut adipiscing malesuada elit, eget sagittis dolor sollicitudin sit amet. Nullam euismod viverra volutpat. Etiam adipiscing lorem auctor arcu feugiat fermentum. Sed commodo a justo id euismod. Sed et eros at neque ullamcorper volutpat. Nulla quis turpis at quam molestie facilisis quis ac turpis.
+        </div>
+        <div class="ui bottom attached header">
+          Bottom Attached
+        </div>
+        <div class="ui black header">
+          Black
+          <div class="sub header">Sub-header</div>
+        </div>
+        <div class="ui blue header">
+          Blue
+          <div class="sub header">Sub-header</div>
+        </div>
+        <div class="ui red header">
+          Red
+          <div class="sub header">Sub-header</div>
+        </div>
+        <div class="ui green header">
+          Green
+          <div class="sub header">Sub-header</div>
+        </div>
+        <div class="ui purple header">
+          Purple
+          <div class="sub header">Sub-header</div>
+        </div>
+        <div class="ui teal header">
+          Teal
+          <div class="sub header">Sub-header</div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="four wide column">
+      <h3 class="ui header">Icon</h3>
+    </div>
+    <div class="twelve wide column">
+      <div class="ui segment">
+        <div class="display">
+          <i class="alarm icon"></i>
+          <i class="alarm outline icon"></i>
+          <i class="browser icon"></i>
+          <i class="bug icon"></i>
+          <i class="calendar icon"></i>
+          <i class="calendar outline icon"></i>
+          <i class="cloud icon"></i>
+          <i class="code icon"></i>
+          <i class="comment icon"></i>
+          <i class="comment outline icon"></i>
+          <i class="comments icon"></i>
+          <i class="comments outline icon"></i>
+          <i class="dashboard icon"></i>
+          <i class="external link icon"></i>
+          <i class="external link square icon"></i>
+          <i class="feed icon"></i>
+          <i class="history icon"></i>
+          <i class="home icon"></i>
+          <i class="idea icon"></i>
+          <i class="inbox icon"></i>
+          <i class="lab icon"></i>
+          <i class="mail icon"></i>
+          <i class="mail outline icon"></i>
+          <i class="mail square icon"></i>
+          <i class="map icon"></i>
+          <i class="payment icon"></i>
+          <i class="privacy icon"></i>
+          <i class="protect icon"></i>
+          <i class="search icon"></i>
+          <i class="setting icon"></i>
+          <i class="settings icon"></i>
+          <i class="shop icon"></i>
+          <i class="sitemap icon"></i>
+          <i class="tag icon"></i>
+          <i class="tags icon"></i>
+          <i class="tasks icon"></i>
+          <i class="terminal icon"></i>
+          <i class="ticket icon"></i>
+          <i class="top icon"></i>
+          <i class="wifi icon"></i>
+          <i class="adjust icon"></i>
+          <i class="archive icon"></i>
+          <i class="ban icon"></i>
+          <i class="bookmark icon"></i>
+          <i class="call icon"></i>
+          <i class="call square icon"></i>
+          <i class="cloud download icon"></i>
+          <i class="cloud upload icon"></i>
+          <i class="compress icon"></i>
+          <i class="configure icon"></i>
+          <i class="download icon"></i>
+          <i class="edit icon"></i>
+          <i class="erase icon"></i>
+          <i class="exchange icon"></i>
+          <i class="external share icon"></i>
+          <i class="expand icon"></i>
+          <i class="filter icon"></i>
+          <i class="flag icon"></i>
+          <i class="flag outline icon"></i>
+          <i class="hide icon"></i>
+          <i class="lock icon"></i>
+          <i class="mail forward icon"></i>
+          <i class="pin icon"></i>
+          <i class="print icon"></i>
+          <i class="random icon"></i>
+          <i class="recycle icon"></i>
+          <i class="refresh icon"></i>
+          <i class="remove bookmark icon"></i>
+          <i class="repeat icon"></i>
+          <i class="reply all icon"></i>
+          <i class="reply icon"></i>
+          <i class="retweet icon"></i>
+          <i class="send icon"></i>
+          <i class="send outline icon"></i>
+          <i class="share alternate icon"></i>
+          <i class="share alternate square icon"></i>
+          <i class="share icon"></i>
+          <i class="share square icon"></i>
+          <i class="sign in icon"></i>
+          <i class="sign out icon"></i>
+          <i class="tint icon"></i>
+          <i class="translate icon"></i>
+          <i class="undo icon"></i>
+          <i class="unhide icon"></i>
+          <i class="unlock alternate icon"></i>
+          <i class="unlock icon"></i>
+          <i class="upload icon"></i>
+          <i class="wait icon"></i>
+          <i class="wizard icon"></i>
+          <i class="write icon"></i>
+          <i class="write square icon"></i>
+          <i class="announcement icon"></i>
+          <i class="help icon"></i>
+          <i class="help square icon"></i>
+          <i class="info icon"></i>
+          <i class="info square icon"></i>
+          <i class="warning icon"></i>
+          <i class="warning sign icon"></i>
+          <i class="warning square icon"></i>
+          <i class="child icon"></i>
+          <i class="doctor icon"></i>
+          <i class="female icon"></i>
+          <i class="handicap icon"></i>
+          <i class="male icon"></i>
+          <i class="student icon"></i>
+          <i class="user icon"></i>
+          <i class="users icon"></i>
+          <i class="child icon"></i>
+          <i class="doctor icon"></i>
+          <i class="female icon"></i>
+          <i class="handicap icon"></i>
+          <i class="male icon"></i>
+          <i class="student icon"></i>
+          <i class="user icon"></i>
+          <i class="users icon"></i>
+          <i class="anchor icon"></i>
+          <i class="bar icon"></i>
+          <i class="bomb icon"></i>
+          <i class="book icon"></i>
+          <i class="bullseye icon"></i>
+          <i class="checkered flag icon"></i>
+          <i class="cocktail icon"></i>
+          <i class="fax icon"></i>
+          <i class="fire extinguisher icon"></i>
+          <i class="fire icon"></i>
+          <i class="flag outline icon"></i>
+          <i class="gift icon"></i>
+          <i class="leaf icon"></i>
+          <i class="legal icon"></i>
+          <i class="lemon icon"></i>
+          <i class="life ring icon"></i>
+          <i class="lightning icon"></i>
+          <i class="magnet icon"></i>
+          <i class="money icon"></i>
+          <i class="moon icon"></i>
+          <i class="plane icon"></i>
+          <i class="puzzle icon"></i>
+          <i class="rain icon"></i>
+          <i class="road icon"></i>
+          <i class="rocket icon"></i>
+          <i class="shipping icon"></i>
+          <i class="suitcase icon"></i>
+          <i class="sun icon"></i>
+          <i class="travel icon"></i>
+          <i class="treatment icon"></i>
+          <i class="world icon"></i>
+          <i class="crosshairs icon"></i>
+          <i class="asterisk icon"></i>
+          <i class="certificate icon"></i>
+          <i class="spinner icon"></i>
+          <i class="circle icon"></i>
+          <i class="quote left icon"></i>
+          <i class="quote right icon"></i>
+          <i class="ellipsis horizontal icon"></i>
+          <i class="ellipsis vertical icon"></i>
+          <i class="cube icon"></i>
+          <i class="cubes icon"></i>
+          <i class="circle notched icon"></i>
+          <i class="circle thin icon"></i>
+          <i class="add circle icon"></i>
+          <i class="add square icon"></i>
+          <i class="check circle icon"></i>
+          <i class="check circle outline icon"></i>
+          <i class="check square icon"></i>
+          <i class="checkmark box icon"></i>
+          <i class="checkmark icon"></i>
+          <i class="minus circle icon"></i>
+          <i class="minus icon"></i>
+          <i class="minus square icon"></i>
+          <i class="minus square outline icon"></i>
+          <i class="move icon"></i>
+          <i class="plus icon"></i>
+          <i class="plus square outline icon"></i>
+          <i class="radio icon"></i>
+          <i class="remove circle icon"></i>
+          <i class="remove circle outline icon"></i>
+          <i class="remove icon"></i>
+          <i class="selected radio icon"></i>
+          <i class="angle double down icon"></i>
+          <i class="angle double left icon"></i>
+          <i class="angle double right icon"></i>
+          <i class="angle double up icon"></i>
+          <i class="angle down icon"></i>
+          <i class="angle left icon"></i>
+          <i class="angle right icon"></i>
+          <i class="angle up icon"></i>
+          <i class="arrow circle down icon"></i>
+          <i class="arrow circle left icon"></i>
+          <i class="arrow circle outline down icon"></i>
+          <i class="arrow circle outline left icon"></i>
+          <i class="arrow circle outline right icon"></i>
+          <i class="arrow circle outline up icon"></i>
+          <i class="arrow circle right icon"></i>
+          <i class="arrow circle up icon"></i>
+          <i class="arrow down icon"></i>
+          <i class="arrow left icon"></i>
+          <i class="arrow right icon"></i>
+          <i class="arrow up icon"></i>
+          <i class="caret down icon"></i>
+          <i class="caret left icon"></i>
+          <i class="caret right icon"></i>
+          <i class="caret up icon"></i>
+          <i class="chevron circle down icon"></i>
+          <i class="chevron circle left icon"></i>
+          <i class="chevron circle right icon"></i>
+          <i class="chevron circle up icon"></i>
+          <i class="chevron down icon"></i>
+          <i class="chevron left icon"></i>
+          <i class="chevron right icon"></i>
+          <i class="chevron up icon"></i>
+          <i class="long arrow down icon"></i>
+          <i class="long arrow left icon"></i>
+          <i class="long arrow right icon"></i>
+          <i class="long arrow up icon"></i>
+          <i class="pointing down icon"></i>
+          <i class="pointing left icon"></i>
+          <i class="pointing right icon"></i>
+          <i class="pointing up icon"></i>
+          <i class="toggle down icon"></i>
+          <i class="toggle left icon"></i>
+          <i class="toggle right icon"></i>
+          <i class="toggle up icon"></i>
+          <i class="desktop icon"></i>
+          <i class="disk outline icon"></i>
+          <i class="file archive outline icon"></i>
+          <i class="file audio outline icon"></i>
+          <i class="file code outline icon"></i>
+          <i class="file excel outline icon"></i>
+          <i class="file icon"></i>
+          <i class="file image outline icon"></i>
+          <i class="file outline icon"></i>
+          <i class="file pdf outline icon"></i>
+          <i class="file powerpoint outline icon"></i>
+          <i class="file text icon"></i>
+          <i class="file text outline icon"></i>
+          <i class="file video outline icon"></i>
+          <i class="file word outline icon"></i>
+          <i class="folder icon"></i>
+          <i class="folder open icon"></i>
+          <i class="folder open outline icon"></i>
+          <i class="folder outline icon"></i>
+          <i class="game icon"></i>
+          <i class="keyboard icon"></i>
+          <i class="laptop icon"></i>
+          <i class="level down icon"></i>
+          <i class="level up icon"></i>
+          <i class="mobile icon"></i>
+          <i class="power icon"></i>
+          <i class="tablet icon"></i>
+          <i class="trash icon"></i>
+          <i class="barcode icon"></i>
+          <i class="css3 icon"></i>
+          <i class="database icon"></i>
+          <i class="fork icon"></i>
+          <i class="html5 icon"></i>
+          <i class="openid icon"></i>
+          <i class="qrcode icon"></i>
+          <i class="rss square icon"></i>
+          <i class="empty heart icon"></i>
+          <i class="empty star icon"></i>
+          <i class="frown icon"></i>
+          <i class="heart icon"></i>
+          <i class="meh icon"></i>
+          <i class="smile icon"></i>
+          <i class="star half empty icon"></i>
+          <i class="star half icon"></i>
+          <i class="star icon"></i>
+          <i class="thumbs down icon"></i>
+          <i class="thumbs outline down icon"></i>
+          <i class="thumbs outline up icon"></i>
+          <i class="thumbs up icon"></i>
+          <i class="backward icon"></i>
+          <i class="eject icon"></i>
+          <i class="fast backward icon"></i>
+          <i class="fast forward icon"></i>
+          <i class="forward icon"></i>
+          <i class="music icon"></i>
+          <i class="mute icon"></i>
+          <i class="pause icon"></i>
+          <i class="play icon"></i>
+          <i class="record icon"></i>
+          <i class="step backward icon"></i>
+          <i class="step forward icon"></i>
+          <i class="stop icon"></i>
+          <i class="unmute icon"></i>
+          <i class="video play icon"></i>
+          <i class="video play outline icon"></i>
+          <i class="volume down icon"></i>
+          <i class="volume off icon"></i>
+          <i class="volume up icon"></i>
+          <i class="building icon"></i>
+          <i class="building outline icon"></i>
+          <i class="car icon"></i>
+          <i class="coffee icon"></i>
+          <i class="emergency icon"></i>
+          <i class="first aid icon"></i>
+          <i class="food icon"></i>
+          <i class="h icon"></i>
+          <i class="hospital icon"></i>
+          <i class="location arrow icon"></i>
+          <i class="marker icon"></i>
+          <i class="military icon"></i>
+          <i class="paw icon"></i>
+          <i class="space shuttle icon"></i>
+          <i class="spoon icon"></i>
+          <i class="taxi icon"></i>
+          <i class="tree icon"></i>
+          <i class="university icon"></i>
+          <i class="columns icon"></i>
+          <i class="sort alphabet ascending icon"></i>
+          <i class="sort alphabet descending icon"></i>
+          <i class="sort ascending icon"></i>
+          <i class="sort content ascending icon"></i>
+          <i class="sort content descending icon"></i>
+          <i class="sort descending icon"></i>
+          <i class="sort icon"></i>
+          <i class="sort numeric ascending icon"></i>
+          <i class="sort numeric descending icon"></i>
+          <i class="table icon"></i>
+          <i class="align center icon"></i>
+          <i class="align justify icon"></i>
+          <i class="align left icon"></i>
+          <i class="align right icon"></i>
+          <i class="attach icon"></i>
+          <i class="bold icon"></i>
+          <i class="content icon"></i>
+          <i class="copy icon"></i>
+          <i class="cut icon"></i>
+          <i class="font icon"></i>
+          <i class="header icon"></i>
+          <i class="indent icon"></i>
+          <i class="italic icon"></i>
+          <i class="link icon"></i>
+          <i class="list icon"></i>
+          <i class="ordered list icon"></i>
+          <i class="outdent icon"></i>
+          <i class="paragraph icon"></i>
+          <i class="paste icon"></i>
+          <i class="save icon"></i>
+          <i class="strikethrough icon"></i>
+          <i class="subscript icon"></i>
+          <i class="superscript icon"></i>
+          <i class="text height icon"></i>
+          <i class="text width icon"></i>
+          <i class="underline icon"></i>
+          <i class="unlink icon"></i>
+          <i class="unordered list icon"></i>
+          <i class="dollar icon"></i>
+          <i class="euro icon"></i>
+          <i class="lira icon"></i>
+          <i class="pound icon"></i>
+          <i class="ruble icon"></i>
+          <i class="rupee icon"></i>
+          <i class="won icon"></i>
+          <i class="yen icon"></i>
+          <i class="adn icon"></i>
+          <i class="android icon"></i>
+          <i class="apple icon"></i>
+          <i class="behance icon"></i>
+          <i class="behance square icon"></i>
+          <i class="bitbucket icon"></i>
+          <i class="bitbucket square icon"></i>
+          <i class="bitcoin icon"></i>
+          <i class="codepen icon"></i>
+          <i class="delicious icon"></i>
+          <i class="deviantart icon"></i>
+          <i class="digg icon"></i>
+          <i class="dribbble icon"></i>
+          <i class="dropbox icon"></i>
+          <i class="drupal icon"></i>
+          <i class="empire icon"></i>
+          <i class="facebook icon"></i>
+          <i class="facebook square icon"></i>
+          <i class="flickr icon"></i>
+          <i class="foursquare icon"></i>
+          <i class="git icon"></i>
+          <i class="git square icon"></i>
+          <i class="github alternate icon"></i>
+          <i class="github icon"></i>
+          <i class="github square icon"></i>
+          <i class="gittip icon"></i>
+          <i class="google icon"></i>
+          <i class="google plus icon"></i>
+          <i class="google plus square icon"></i>
+          <i class="hacker news icon"></i>
+          <i class="instagram icon"></i>
+          <i class="joomla icon"></i>
+          <i class="jsfiddle icon"></i>
+          <i class="linkedin icon"></i>
+          <i class="linkedin square icon"></i>
+          <i class="linux icon"></i>
+          <i class="maxcdn icon"></i>
+          <i class="pagelines icon"></i>
+          <i class="pied piper alternate icon"></i>
+          <i class="pied piper icon"></i>
+          <i class="pinterest icon"></i>
+          <i class="pinterest square icon"></i>
+          <i class="qq icon"></i>
+          <i class="rebel icon"></i>
+          <i class="reddit icon"></i>
+          <i class="reddit square icon"></i>
+          <i class="renren icon"></i>
+          <i class="skype icon"></i>
+          <i class="slack icon"></i>
+          <i class="soundcloud icon"></i>
+          <i class="spotify icon"></i>
+          <i class="stack exchange icon"></i>
+          <i class="stack overflow icon"></i>
+          <i class="steam icon"></i>
+          <i class="steam square icon"></i>
+          <i class="stumbleupon circle icon"></i>
+          <i class="stumbleupon icon"></i>
+          <i class="tencent weibo icon"></i>
+          <i class="trello icon"></i>
+          <i class="tumblr icon"></i>
+          <i class="tumblr square icon"></i>
+          <i class="twitter icon"></i>
+          <i class="twitter square icon"></i>
+          <i class="vimeo icon"></i>
+          <i class="vine icon"></i>
+          <i class="vk icon"></i>
+          <i class="wechat icon"></i>
+          <i class="weibo icon"></i>
+          <i class="windows icon"></i>
+          <i class="wordpress icon"></i>
+          <i class="xing icon"></i>
+          <i class="xing square icon"></i>
+          <i class="yahoo icon"></i>
+          <i class="youtube icon"></i>
+          <i class="youtube play icon"></i>
+          <i class="youtube square icon"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="four wide column">
+      <h3 class="ui header">Input</h3>
+    </div>
+    <div class="twelve wide input column">
+      <div class="ui segment">
+
+        <div class="ui icon input">
+          <input type="text" placeholder="Search...">
+          <i class="search icon"></i>
+        </div>
+
+        <div class="ui left icon input">
+          <input type="text" placeholder="Search users...">
+          <i class="users icon"></i>
+        </div>
+
+        <div class="ui labeled input">
+          <input type="text" placeholder="Search...">
+          <div class="ui corner label">
+            <i class="asterisk icon"></i>
+          </div>
+        </div>
+
+        <div class="ui action input">
+          <input type="text" placeholder="Search...">
+          <div class="ui icon button"><i class="search icon"></i></div>
+        </div>
+
+        <div class="ui action input">
+          <input type="text" value="http://ww.short.url/c0opq">
+          <div class="ui teal right labeled icon button"><i class="copy icon"></i> Copy</div>
+        </div>
+
+        <div class="ui transparent left icon input">
+          <i class="search icon"></i>
+          <input type="text" placeholder="Search...">
+        </div>
+      </div>
+    </div>
+
+    <div class="four wide column">
+      <h3 class="ui header">Input</h3>
+    </div>
+    <div class="twelve wide input column">
+      <div class="ui segment">
+      </div>
+    </div>
+  </div>
+</div>
