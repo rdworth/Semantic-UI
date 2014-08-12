@@ -1264,6 +1264,13 @@ body.progress .ui.progress .bar {
 #example.sink .inverted.button {
   margin-bottom: 0.75em;
 }
+#example.sink .display .icon {
+  font-size: 18px;
+  margin: 1em 0.5em;
+}
+#example.sink .input.column .ui.input {
+  margin: 0.5em 1.5em 0em 0em;
+}
 
 
 #example.feed .example .segment {

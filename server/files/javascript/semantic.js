@@ -818,6 +818,9 @@ semantic.ready = function() {
     .on('mouseleave', handler.menu.mouseleave)
   ;
   $menu
+    .accordion({
+      exclusive: true
+    })
     .sidebar('attach events', '.launch.button, .view-ui.button, .launch.item')
     .sidebar('attach events', $hideMenu, 'hide')
   ;
