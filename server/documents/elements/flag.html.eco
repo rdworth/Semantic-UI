@@ -37,7 +37,7 @@ type        : 'UI Element'
       <thead>
         <th>Flag</th>
         <th>Name</th>
-        <th>ISO 3166-2 Code <a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">?</a></th>
+        <th>ISO 3166-2 Code <a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">?</a></th>
         <th>Additional Aliases</th>
       </thead>
       <tbody>

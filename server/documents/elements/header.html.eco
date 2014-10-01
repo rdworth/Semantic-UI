@@ -23,9 +23,9 @@ themes      : ['Default', 'Bookish', 'Chubby']
   <div class="example">
     <h4 class="ui header">Header</h4>
     <p>A standard header</p>
-    <h2 class="ui header">
+    <h3 class="ui header">
       Account Settings
-    </h2>
+    </h3>
   </div>
 
   <div class="example">
@@ -37,47 +37,52 @@ themes      : ['Default', 'Bookish', 'Chubby']
     </h2>
   </div>
   <div class="another example">
-    <h2 class="ui header">
+    <h3 class="ui header">
       <i class="settings icon"></i>
       <div class="content">
         Account Settings
         <div class="sub header">Manage your account settings and set e-mail preferences.</div>
       </div>
-    </h2>
+    </h3>
   </div>
 
   <div class="example">
     <h4 class="ui header">Icon</h4>
     <p>A header can be formatted to emphasize an icon</p>
-    <h2 class="ui icon header">
+    <h3 class="ui icon header">
       <i class="settings icon"></i>
       <div class="content">
         Account Settings
         <div class="sub header">Manage your account settings and set e-mail preferences.</div>
       </div>
-    </h2>
+    </h3>
   </div>
 
 
   <div class="example">
-    <h4 class="ui header">Page Headings</h4>
-    <p class="header">Headers may be oriented to give the heirarchy of a section in the context of the page</p>
+    <h4 class="ui header">Display Headings</h4>
+    <p class="header"></p>
     <div class="ignored info ui message">Page headings size themselves relative to the base font of the entire page not the surrounding text.</div>
     <div class="ui ignored two fluid font buttons">
       <a class="increase ui button"> <i class="icon green plus"></i> Base Font</a>
       <a class="decrease ui button"> <i class="icon red minus"></i> Base Font</a>
     </div>
     <div class="ui segment">
-      <h1 class="ui header">First header</h1>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
-      <h2 class="ui header">Second header</h2>
-      <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
-      <h3 class="ui header">Third header</h3>
-      <p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</p>
-      <h4 class="ui header">Fourth header</h4>
-      <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
-      <h5 class="ui header">Fifth header</h5>
-      <p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</p>
+      <h1 class="ui header">Realistic Example</h1>
+      <p>Realistic examples provide more context than manufactured ones that just list off content, one by one.</p>
+      <h2 class="ui header">Purpose</h2>
+      <p>This is a realistic example designed to show exactly why five levels of headings might one day be needed. It may seem like too many headings for one person. Five headings? How could someone possibly need so many sizes?</p>
+      <p>Well it's simple. Breaking up content into sub-headings makes it easier to scan.</p>
+      <h3 class="ui header">Types of Realism</h3>
+      <p>Many people know what realism means in day to day conversations, but did you know that realism has very specific academic meanings as well?</p>
+      <h4 class="ui header">Political Realism</h4>
+      <p><em>Realpolitik</em> is a political philosophy that emphasizes power as the motivating factor for nations. Okay here's where some real filler text goes in, forgive me but this is too many sentences of stream of concious in for me to not drift into some meaningless drivel sentences. Oh here's one or two.</p>
+      <h4 class="ui header">In Philosophy</h4>
+      <p>You'll have to ask Zizek for a lesson on this, but I'm pretty sure there's a philosophical real that has to be capitalized like this, Real.</p>
+      <h5>Žižek</h5>
+      <p>Žižek is often difficult to type into a page due to the unusual accent marks. They make for good headings though. I hope you like it as a heading</p>
+      <h2 class="ui header">The Consequences of Unrealistic Examples</h2>
+      <p>The most important consequence being that its difficult to foresee exactly how something would look in real usage, versus in a manner specifically manufactured for display.
     </div>
   </div>
 

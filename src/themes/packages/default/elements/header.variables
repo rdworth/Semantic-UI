@@ -18,21 +18,21 @@
 @lineHeight: 1.33em;
 
 /* HTML Headings */
-@h1: 2rem;
-@h2: 1.5rem;
-@h3: 1.3rem;
-@h4: 1.1rem;
+@h1: 2.85714285rem;
+@h2: 2.14285rem;
+@h3: 1.714285rem;
+@h4: 1.285714rem;
 @h5: 1rem;
 
 /* Sizing */
-@tiny: 1em;
-@small: 1.1em;
-@medium: 1.3em;
-@large: 1.5em;
-@huge: 2em;
+@huge: 2.85714285em; /* 40px @ 14px = em */
+@large: 2.14285rem; /* 30px */
+@medium: 1.714285rem; /* 24px */
+@small: 1.285714rem; /* 18px */
+@tiny: 1em; /* 14px */
 
 /* Sub Header */
-@subHeaderFontSize: 1rem;
+@subHeaderFontSize: 1.14285rem; /* 16px */
 @subHeaderLineHeight: 1.2em;
 @subHeaderColor: rgba(0, 0, 0, 0.5);
 
@@ -57,7 +57,7 @@
 --------------------*/
 
 /* Icon Header */
-@iconHeaderSize: 3em;
+@iconHeaderIconSize: 3em;
 @iconHeaderOpacity: 1;
 @iconHeaderMargin: 0.2em;
 @circularHeaderIconSize: 2em;

@@ -19,7 +19,7 @@
 
 @importGoogleFonts : true;
 @googleFontName    : 'Lato';
-@googleFontSizes   : '300,400,700,300italic,400italic,700italic';
+@googleFontSizes   : '400,700,400italic,700italic';
 
 /*-------------------
       Site Colors
